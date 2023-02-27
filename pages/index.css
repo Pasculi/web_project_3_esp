@@ -1,0 +1,19 @@
+/*NORMALIZE*/
+@import url(../vendor/normalize.css);
+/*ROOT*/
+@import url(../blocks/root/root.css);
+
+/*FONTS*/
+@import url(../fonts/font-inter.css);
+
+/*HEADER*/
+@import url(../blocks/header/header.css);
+
+/*LOGO HEADER*/
+@import url(../blocks/header/__logo/header__logo.css);
+
+/*MAIN*/
+@import url(../blocks/principal/principal.css);
+@import url(../blocks/principal/__titulo/principal__titulo.css);
+@import url(../blocks/principal/__subtitulo/principal__subtitulo.css);
+@import url(../blocks/principal/__image/principal__image.css);
