@@ -1,0 +1,6 @@
+.place__artist-description{
+    margin:0;
+    grid-area: artist-description;
+    margin-top: 48px;
+
+}

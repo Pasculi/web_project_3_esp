@@ -1,0 +1,10 @@
+.place__button{
+    width: 355px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #0278FE;
+    padding:13px 20px;
+    border-radius: 4px;
+    align-self: flex-start;
+    grid-area: button;
+}

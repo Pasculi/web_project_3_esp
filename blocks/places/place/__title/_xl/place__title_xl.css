@@ -1,0 +1,6 @@
+.place__title_xl{
+    width:584px;
+    position:relative;
+    z-index: 10;
+    margin-right: -140px;
+}
