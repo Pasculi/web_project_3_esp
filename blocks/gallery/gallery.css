@@ -1,0 +1,11 @@
+.gallery{
+  width: 90%;
+  display: grid;
+  padding-top: 5.75rem;
+  margin: auto;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);;
+  grid-gap:1rem 1rem;
+  padding-bottom: 5.75rem;
+
+}

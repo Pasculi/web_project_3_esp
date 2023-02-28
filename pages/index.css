@@ -17,3 +17,16 @@
 @import url(../blocks/principal/__titulo/principal__titulo.css);
 @import url(../blocks/principal/__subtitulo/principal__subtitulo.css);
 @import url(../blocks/principal/__image/principal__image.css);
+
+/*BEUYS*/
+@import url(../blocks/beuys/beuys.css);
+@import url(../blocks/beuys/__heanding/beuys__heanding.css);
+@import url(../blocks/beuys/__quote/beuys__quote.css);
+@import url(../blocks/beuys/__quote/beuys__quote-author.css);
+@import url(../blocks/beuys/__parrafo/beuys__parrafo.css);
+
+/*GALLERY*/
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__item/gallery__item.css);
+
+/*PLACES*/

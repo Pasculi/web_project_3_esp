@@ -1,0 +1,9 @@
+.beuys__quote-author {
+  width      : 70%;
+  margin-top : -3rem;
+  font-weight: 400;
+  font-size  : 1.5rem;
+  line-height: 1.42;
+  text-align : right;
+  margin-bottom: 2rem;
+}
