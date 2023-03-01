@@ -49,3 +49,7 @@
 @import url(../blocks/visit/address/address.css);
 @import url(../blocks/visit/visit.css);
 @import url(../blocks/visit/__button/visit__button.css);
+
+/*FOOTER*/
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__author/footer__author.css);

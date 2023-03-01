@@ -1,10 +1,15 @@
-.place__button{
-    width: 355px;
-    text-decoration: none;
-    color: #fff;
-    background-color: #0278FE;
-    padding:13px 20px;
-    border-radius: 4px;
-    align-self: flex-start;
-    grid-area: button;
+.place__button {
+  max-width       : fit-content;
+  text-decoration : none;
+  color           : #fff;
+  background-color: #0278FE;
+  padding         : 13px 20px;
+  border-radius   : 4px;
+  align-self      : flex-start;
+  grid-area       : button;
+  transition      : background-color .5s;
+}
+
+.place__button:hover {
+  background-color: #075bbb;
 }
