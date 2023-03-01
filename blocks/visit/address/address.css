@@ -1,0 +1,13 @@
+.address {
+  width          : 656px;
+  display        : flex;
+  flex-direction : column;
+  justify-content: center;
+  align-items: center;
+  z-index        : -15;
+  position: absolute;
+  background-color: transparent;
+  top: 243px;
+  left:264px;
+  z-index: 20;
+}
