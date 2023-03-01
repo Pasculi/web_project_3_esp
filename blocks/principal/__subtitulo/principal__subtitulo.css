@@ -8,3 +8,8 @@
   text-align    : center;
   width         : 70%;
 }
+@media screen and (max-width: 768px){
+  .principal__subtitulo{
+  width: 100%;
+  }
+}

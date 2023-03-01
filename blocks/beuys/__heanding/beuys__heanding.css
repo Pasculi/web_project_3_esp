@@ -4,3 +4,15 @@
   font-size: 3.375rem;
   line-height: 1.1;
 }
+
+@media screen and (max-width: 768px) {
+  .beuys_heanding{
+    font-style: normal;
+font-weight: 900;
+font-size: 54px;
+line-height: 58px;
+/* or 107% */
+
+
+  }
+}
