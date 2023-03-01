@@ -1,4 +1,10 @@
-.gallery__ittem{
+.gallery__item{
   width: 284px;
   height: 213px;
+}
+@media screen and (max-width: 768px) {
+  .gallery__item{
+    width: 352px;
+   height: 264px;
+  }
 }
