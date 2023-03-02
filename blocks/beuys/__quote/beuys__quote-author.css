@@ -7,3 +7,8 @@
   text-align : right;
   margin-bottom: 2rem;
 }
+
+@media screen and (max-width: 768px) {
+  .beuys__quote-author {
+    width: 720px;
+}
