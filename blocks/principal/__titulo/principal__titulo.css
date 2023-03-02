@@ -1,9 +1,27 @@
 .principal__titulo {
   font-weight: 900;
-    font-size: 6rem;
-    line-height: 1.1;
-    margin: 0 auto;
-    padding-top: 5rem;
-    text-align: center;
-    width: 70%;
+  font-size  : 6rem;
+  line-height: 1.1;
+  margin     : 0 auto;
+  padding-top: 5rem;
+  text-align : center;
+  width      : 70%;
+}
+
+
+@media screen and (max-width:720px) {
+  .principal__titulo {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:432px) {
+  .principal__titulo {
+    width      : 70%;
+    font-style : normal;
+    font-weight: 900;
+    font-size  : 40px;
+    line-height: 44px;
+
+  }
 }

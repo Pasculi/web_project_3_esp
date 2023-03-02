@@ -8,3 +8,21 @@
   text-align    : center;
   width         : 70%;
 }
+
+@media screen and (max-width:720px) {
+  .principal__subtitulo {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:560px) {
+  .principal__subtitulo {
+    width      : 80%;
+    font-style : normal;
+    font-weight: 400;
+    font-size  : 1.2rem;
+    line-height: 1.25;
+    /* or 125% */
+    text-align : center;
+  }
+}

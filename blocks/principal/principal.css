@@ -5,3 +5,9 @@
   margin    : 0 auto;
   text-align: center;
 }
+@media screen and (max-width:780px) {
+  .principal{
+    width: 100%;
+  }
+}
+
