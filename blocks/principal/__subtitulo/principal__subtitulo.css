@@ -3,21 +3,28 @@
   font-size     : 30px;
   line-height   : 1.2;
   margin        : 0 auto;
-  padding-top   : 2rem;
+  padding-top   : 5rem;
   padding-bottom: 4rem;
   text-align    : center;
   width         : 70%;
 }
 
-@media screen and (max-width:720px) {
+@media screen and (max-width:768px) {
   .principal__subtitulo {
-    width: 100%;
+    width: 95%;
+    font-style : normal;
+font-weight: 400;
+font-size  : 30px;
+line-height: 36px;
+/* or 120% */
+
+text-align: center;
   }
 }
 
-@media screen and (max-width:560px) {
+@media screen and (max-width:390px) {
   .principal__subtitulo {
-    width      : 80%;
+    width      : 95%;
     font-style : normal;
     font-weight: 400;
     font-size  : 1.2rem;
