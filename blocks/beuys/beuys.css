@@ -3,13 +3,3 @@
   margin: auto;
 }
 
-
-@media screen and (max-width: 768px){
-
-  .beuys {
-    width : 100%;
-    margin:0 24px;
-   
-  }
-
-}

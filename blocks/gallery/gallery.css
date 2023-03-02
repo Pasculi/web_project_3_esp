@@ -9,12 +9,3 @@
   padding-bottom: 5.75rem;
 
 }
-@media screen and (max-width: 768px) {
-  .gallery {
-      grid-template: repeat(4, 1fr) / repeat(2, 1fr);
-      padding-top: 3rem;
-      grid-gap:1rem 1rem;
-      margin: 0;
-      margin-left:1rem;
-  }
-}
