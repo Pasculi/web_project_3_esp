@@ -1,12 +1,39 @@
-.place{
-    width: 100%;
-    display: grid;
-    column-gap: 40px;
-    grid-template-areas:
+.place {
+  width     : 95%;
+  margin:0 auto;
+  display   : grid;
+   gap: 48px 40px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
     "title artist-title"
     "image artist-description"
     "button artist-description"
     "button ."
-     ;
-     margin:0;
+  ;
+
+}
+
+@media screen and (max-width:900px) {
+  .place {
+    width      : 90px;
+    margin:0 16px;
+    gap : 0;
+  }
+}
+
+@media screen and (max-width:490px) {
+  .place {
+    grid-template-areas:
+      "title"
+      "artist-title"
+      "artist-description"
+      "image"
+      "artist-description"
+      "button"
+    ;
+    gap        : 10px;
+    width      : 100%;
+
+    margin:0;
+  }
 }

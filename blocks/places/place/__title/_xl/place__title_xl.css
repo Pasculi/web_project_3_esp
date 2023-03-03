@@ -4,3 +4,16 @@
     z-index: 10;
     margin-right: -140px;
 }
+
+@media screen and (max-width:768px) {
+  .place__title_xl {
+    width: 340px;
+    font-size: 42px;
+line-height: 46px;
+/* or 110% */
+  }
+}
+
+@media screen and (max-width:432px) {
+  .place__title {}
+}

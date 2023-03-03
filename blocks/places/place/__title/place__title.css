@@ -8,3 +8,14 @@
     line-height: 1.06;
     grid-area: title;
 }
+
+@media screen and (max-width:900px) {
+  .place__title {
+    width:340px;
+    font-size: 42px;
+line-height: 1.1;
+height:fit-content;
+/* or 110% */
+  }
+}
+

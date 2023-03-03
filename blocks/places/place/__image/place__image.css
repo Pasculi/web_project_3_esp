@@ -5,3 +5,22 @@
     grid-area: image;
     margin:48px 0;
 }
+
+
+@media screen and (max-width:900px) {
+  .place__image{
+    width: 340px;
+    height: 340px;
+    margin-top:46px;
+    padding-right: 28px;
+  }
+}
+
+@media screen and (max-width:490px) {
+  .place__image {
+    width: 100vw;
+height: 390px;
+    margin: 0;
+    padding:0;
+  }
+}
