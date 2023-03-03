@@ -5,3 +5,25 @@
   font-style: normal;
   line-height: 1.63;
 }
+
+
+@media screen and (max-width: 768px) {
+  .beuys__parrafo {
+    width      : 100%;
+    font-style: normal;
+font-weight: 400;
+font-size: 1rem;
+line-height: 1.63;
+/* or 26px */
+
+  }
+}
+
+
+@media screen and (max-width: 432px) {
+  .beuys__parrafo {
+    width      : 92%;
+    line-height: 1.63;
+   margin:0;
+  }
+}

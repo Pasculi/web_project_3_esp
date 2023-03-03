@@ -3,3 +3,16 @@
   margin: auto;
 }
 
+@media screen and (max-width: 768px){
+  .beuys{
+  width: 95%;
+  margin: auto;
+}
+}
+
+@media screen and (max-width: 432px) {
+  .beuys {
+    margin:0rem 1rem;
+
+  }
+}
