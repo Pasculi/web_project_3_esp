@@ -1,46 +1,42 @@
 .place__button {
-  max-width: fit-content;
-  text-decoration: none;
-  color: #fff;
+  max-width       : fit-content;
+  text-decoration : none;
+  color           : #fff;
   background-color: #0278FE;
-  padding: 13px 20px;
-  border-radius: 4px;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 22px;
-  align-self: flex-start;
-  grid-area: button;
-  transition: background-color .5s;
+  padding         : 13px 20px;
+  border-radius   : 4px;
+  font-style      : normal;
+  font-weight     : 600;
+  font-size       : 18px;
+  line-height     : 22px;
+  align-self      : flex-start;
+  grid-area       : button;
+  transition      : background-color .5s;
 }
 
 .place__button:hover {
   background-color: #0063D2;
 }
 
-@media screen and (max-width:920px) {
+@media screen and (max-width:768px) {
   .place__button {
-    display: block;
-    width: 100%;
+    display    : block;
+    width      : 100%;
     font-weight: 600;
-    font-size: 18px;
+    font-size  : 18px;
     line-height: 22px;
-
-
-  }
+    }
 }
 
 @media screen and (max-width:490px) {
   .place__button {
-    display: block;
-    width: 100%;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 17px;
-    margin: 6px 0px 17px 16px;
-    padding: 16px 15px;
-    align-self: center;
-    
+    display: inline-block;
+    width: 320px;
+    margin-left: 16px;
+    margin-bottom:16px;
+    margin-top:8px;
+    font-size: 17.5px;
+line-height: 17px;
 
   }
 }
