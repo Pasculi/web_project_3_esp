@@ -25,18 +25,18 @@
     font-weight: 600;
     font-size  : 18px;
     line-height: 22px;
-    }
+  }
 }
 
 @media screen and (max-width:490px) {
   .place__button {
-    display: inline-block;
-    width: 320px;
-    margin-left: 16px;
-    margin-bottom:16px;
-    margin-top:8px;
-    font-size: 17.5px;
-line-height: 17px;
+    display      : inline-block;
+    width        : 320px;
+    margin-left  : 16px;
+    margin-bottom: 16px;
+    margin-top   : 8px;
+    font-size    : 17.5px;
+    line-height  : 17px;
 
   }
 }

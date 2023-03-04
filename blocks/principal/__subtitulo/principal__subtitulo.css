@@ -11,14 +11,12 @@
 
 @media screen and (max-width:768px) {
   .principal__subtitulo {
-    width: 95%;
+    width      : 95%;
     font-style : normal;
-font-weight: 400;
-font-size  : 30px;
-line-height: 36px;
-/* or 120% */
-
-text-align: center;
+    font-weight: 400;
+    font-size  : 30px;
+    line-height: 1.2;
+    text-align : center;
   }
 }
 
@@ -29,7 +27,6 @@ text-align: center;
     font-weight: 400;
     font-size  : 1.2rem;
     line-height: 1.25;
-    /* or 125% */
     text-align : center;
   }
 }

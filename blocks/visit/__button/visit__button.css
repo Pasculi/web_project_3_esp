@@ -17,10 +17,10 @@
 
 @media screen and (max-width:490px) {
   .visit__button {
-    max-width      : 198px;
+    max-width  : 198px;
     font-weight: 600;
     font-size  : 18px;
     line-height: 22px;
-    margin-top:16px;
+    margin-top : 16px;
   }
 }

@@ -1,14 +1,14 @@
-.places{
-    display: flex;
-    flex-direction: column;
-    row-gap: 80px;
-    width:987px;
-    margin: 0 auto;
+.places {
+  display       : flex;
+  flex-direction: column;
+  row-gap       : 80px;
+  width         : 987px;
+  margin        : 0 auto;
 
 }
 
-@media screen and (max-width: 920px){
-  .places{
+@media screen and (max-width: 920px) {
+  .places {
     row-gap: 0;
   }
 }

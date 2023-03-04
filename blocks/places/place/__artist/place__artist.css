@@ -1,14 +1,14 @@
-.place__artist{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    margin:0;
-    width:456px;
+.place__artist {
+  display        : flex;
+  flex-direction : column;
+  justify-content: flex-end;
+  margin         : 0;
+  width          : 456px;
 }
 
-@media screen and (max-width: 490px){
-    .place__artist{
-        width: 95%;
-        margin:16px;
-    }
+@media screen and (max-width: 490px) {
+  .place__artist {
+    width : 95%;
+    margin: 16px;
+  }
 }

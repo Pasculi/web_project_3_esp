@@ -1,5 +1,5 @@
 .address {
-  box-sizing: border-box;
+  box-sizing      : border-box;
   width           : 656px;
   display         : flex;
   flex-direction  : column;
@@ -14,18 +14,18 @@
 }
 
 @media screen and (max-width: 768px) {
-  .address{
-    top : 246px;
-left : 56px;
-font-weight: 600;
-font-size  : 18px;
-line-height: 22px;
+  .address {
+    top        : 246px;
+    left       : 56px;
+    font-weight: 600;
+    font-size  : 18px;
+    line-height: 22px;
   }
 }
 
 @media screen and (max-width: 490px) {
   .address {
-    width :69%;
+    width      : 69%;
     top        : 46px;
     left       : 15%;
     font-weight: 600;

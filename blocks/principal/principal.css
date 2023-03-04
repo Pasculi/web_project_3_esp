@@ -1,13 +1,13 @@
 .principal {
-  display: flex;
+  display       : flex;
   flex-direction: column;
-  width     : 80%;
-  margin    : 0 auto;
-  text-align: center;
+  width         : 80%;
+  margin        : 0 auto;
+  text-align    : center;
 }
+
 @media screen and (max-width:780px) {
-  .principal{
+  .principal {
     width: 100%;
   }
 }
-

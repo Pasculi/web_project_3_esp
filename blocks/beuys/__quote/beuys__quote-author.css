@@ -1,32 +1,29 @@
 .beuys__quote-author {
-  width      : 70%;
-  margin-top : -1.8rem;
-  font-weight: 400;
-  font-size  : 1.5rem;
-  line-height: 1.42;
-  text-align : right;
+  width        : 70%;
+  margin-top   : -1.8rem;
+  font-weight  : 400;
+  font-size    : 1.5rem;
+  line-height  : 1.42;
+  text-align   : right;
   margin-bottom: 2rem;
 }
 
 @media screen and (max-width: 768px) {
-  .beuys__quote-author{
+  .beuys__quote-author {
     width      : 100%;
     font-style : normal;
     font-weight: 400;
     font-size  : 24px;
     line-height: 1.42;
     margin-top : 1rem;
-
   }
 
 }
 
 @media screen and (max-width: 432px) {
   .beuys__quote-author {
-    width      : 95%;
-    margin-top : .5rem;
-
-
+    width     : 95%;
+    margin-top: .5rem;
   }
 
 }

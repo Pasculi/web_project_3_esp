@@ -1,19 +1,18 @@
-.gallery__item{
-  width: 284px;
+.gallery__item {
+  width : 284px;
   height: 213px;
 }
 
-
 @media screen and (max-width: 920px) {
   .gallery__item {
-    width: 352px;
-height: 264px;
+    width : 352px;
+    height: 264px;
   }
 }
 
 @media screen and (max-width: 490px) {
   .gallery__item {
-    width: 288px;
+    width : 288px;
     height: 216px;
     margin: 0 auto;
   }

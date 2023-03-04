@@ -1,7 +1,7 @@
 .root {
-  box-sizing        : border-box;
-  background-color  : #2a2c2f;
-  font-family       : "Inter",
+  box-sizing      : border-box;
+  background-color: #2a2c2f;
+  font-family     : "Inter",
     "Helvetica Neue",
     Arial,
     sans-serif;
@@ -9,9 +9,9 @@
   margin    : auto;
   overflow-x: hidden;
 }
+
 @media screen and (min-width: 1225px) {
   .root {
-      width: 1280px;
+    width: 1280px;
   }
 }
-
