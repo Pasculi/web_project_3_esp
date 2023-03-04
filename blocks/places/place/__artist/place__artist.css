@@ -9,6 +9,6 @@
 @media screen and (max-width: 490px){
     .place__artist{
         width: 95%;
-        margin:16px
+        margin:16px;
     }
 }
