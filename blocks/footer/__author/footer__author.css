@@ -11,3 +11,9 @@
 .footer__author:hover {
   color:#adaaaa
 }
+
+@media screen and (max-width:490px) {
+  .footer__author {
+    line-height: 14px;
+  }
+}
