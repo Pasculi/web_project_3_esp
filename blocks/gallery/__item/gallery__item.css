@@ -11,9 +11,10 @@ height: 264px;
   }
 }
 
-@media screen and (max-width: 432px) {
+@media screen and (max-width: 490px) {
   .gallery__item {
-    width: 100%;
+    width: 288px;
     height: 216px;
+    margin: 0 auto;
   }
 }
