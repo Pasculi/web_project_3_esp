@@ -30,17 +30,17 @@
 @import url(../blocks/gallery/__item/gallery__item.css);
 
 /*PLACES*/
-@import url(../blocks/places/places.css);
-@import url(../blocks/places/place/place.css);
-@import url(../blocks/places/place/__title/place__title.css);
-@import url(../blocks/places/place/__title/_xl/place__title_xl.css);
-@import url(../blocks/places/place/__image/place__image.css);
-@import url(../blocks/places/place/__button/place__button.css);
-@import url(../blocks/places/place/__artist/place__artist.css);
-@import url(../blocks/places/place/__artist/__artist-info/place__artist-info.css);
-@import url(../blocks/places/place/__artist-description/place__artist-description.css);
-@import url(../blocks/places/place/__artist-description/_parrafo/place__artist-description_parrafo.css);
-@import url(../blocks/places/place/__artist/__artist-title/place__artist-title.css);
+
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__title/_xl/place__title_xl.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__button/place__button.css);
+@import url(../blocks/place/__artist/place__artist.css);
+@import url(../blocks/place/__artist/__artist-info/place__artist-info.css);
+@import url(../blocks/place/__artist-description/place__artist-description.css);
+@import url(../blocks/place/__artist-description/_parrafo/place__artist-description_parrafo.css);
+@import url(../blocks/place/__artist/__artist-title/place__artist-title.css);
 
 /*VISIT*/
 @import url(../blocks/visit/__image/visit__image.css);

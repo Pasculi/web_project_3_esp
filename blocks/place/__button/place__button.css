@@ -32,10 +32,10 @@
   .place__button {
     display      : block;
     width        : 89%;
-    margin-left:16px;
     padding:16px 22px 15px 21px;
     font-size    : 14px;
     line-height  : 17px;
+    margin: 8px 16px 16px 16px;
 
   }
 }
