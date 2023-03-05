@@ -1,4 +1,4 @@
-.address {
+.visit__address {
   box-sizing      : border-box;
   width           : 656px;
   display         : flex;
@@ -14,7 +14,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .address {
+  .visit__address {
     top        : 246px;
     left       : 56px;
     font-weight: 600;
@@ -24,7 +24,7 @@
 }
 
 @media screen and (max-width: 490px) {
-  .address {
+  .visit__address {
     width      : 69%;
     top        : 46px;
     left       : 15%;
