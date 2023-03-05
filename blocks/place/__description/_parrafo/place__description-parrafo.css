@@ -1,4 +1,4 @@
-.place__artist-description_parrafo {
+.place__description-parrafo {
   width        : 484px;
   margin       : 0;
   font-style   : normal;
@@ -9,15 +9,15 @@
 }
 
 @media screen and (max-width:768px) {
-  .place__artist-description_parrafo {
+  .place__description-parrafo {
     width: 75%;
   }
 }
 
 @media screen and (max-width:490px) {
-  .place__artist-description_parrafo {
+  .place__description-parrafo {
     width: 90%;
-    margin     : 0 16px;
+    margin-bottom    : 16px;
     font-style: normal;
     font-weight: 400;
     font-size  : 16px;

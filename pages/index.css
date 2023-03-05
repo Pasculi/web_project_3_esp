@@ -38,8 +38,8 @@
 @import url(../blocks/place/__button/place__button.css);
 @import url(../blocks/place/__artist/place__artist.css);
 @import url(../blocks/place/__artist/__artist-info/place__artist-info.css);
-@import url(../blocks/place/__artist-description/place__artist-description.css);
-@import url(../blocks/place/__artist-description/_parrafo/place__artist-description_parrafo.css);
+@import url(../blocks/place/__description/place__description.css);
+@import url(../blocks/place/__description/_parrafo/place__description-parrafo.css);
 @import url(../blocks/place/__artist/__artist-title/place__artist-title.css);
 
 /*VISIT*/

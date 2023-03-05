@@ -1,11 +1,11 @@
-.place__artist-description {
+.place__description {
   margin    : 0;
   grid-area : artist-description;
   margin-top: 48px;
 }
 
 @media screen and (max-width:768px) {
-  .place__artist-description {
+  .place__description {
     font-style : normal;
     font-weight: 400;
     font-size  : 16px;
@@ -14,7 +14,7 @@
 }
 
 @media screen and (max-width:490px) {
-  .place__artist-descriptio{
+  .place__description{
     max-width: 90%;
   }
 }
