@@ -8,7 +8,7 @@
   margin-bottom: 25px;
 }
 
-@media screen and (max-width:980px) {
+@media screen and (max-width:768px) {
   .place__artist-description_parrafo {
     width: 75%;
   }
@@ -16,8 +16,9 @@
 
 @media screen and (max-width:490px) {
   .place__artist-description_parrafo {
-    width      : 85%;
+    width: 90%;
     margin     : 0 16px;
+    font-style: normal;
     font-weight: 400;
     font-size  : 16px;
     line-height: 1.63;

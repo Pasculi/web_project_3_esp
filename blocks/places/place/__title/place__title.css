@@ -9,19 +9,18 @@
   grid-area: title;
 }
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:768px) {
   .place__title {
     width: 95%;
     font-size: 42px;
     line-height: 1.1;
     height: fit-content;
-    /* or 110% */
   }
 }
 
 @media screen and (max-width:490px) {
   .place__title {
-    width: 90%;
+    width: 89%;
     padding: 0 16px;
 
   }
