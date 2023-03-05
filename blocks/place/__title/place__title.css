@@ -7,7 +7,7 @@
   font-size: 72px;
   line-height: 1.06;
   grid-area: title;
-  margin-top:2.18rem
+  margin-top:2.18rem;
 }
 
 @media screen and (max-width:768px) {
