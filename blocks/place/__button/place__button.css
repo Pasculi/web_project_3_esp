@@ -4,12 +4,13 @@
   text-decoration : none;
   color           : #fff;
   background-color: #0278FE;
-  padding         : 13px 20px;
-  border-radius   : 4px;
+  padding         : 0.8125rem
+  1.25rem;
+  border-radius   : 0.25rem;
   font-style      : normal;
   font-weight     : 600;
-  font-size       : 18px;
-  line-height     : 22px;
+  font-size       : 1.125rem;
+  line-height     : 1.3125rem;
   align-self      : flex-start;
   grid-area       : button;
   transition      : background-color .5s;
@@ -23,18 +24,18 @@
   .place__button {
     width      : 100%;
     font-weight: 600;
-    font-size  : 18px;
-    line-height: 22px;
+    font-size  : 1.125rem;
+    line-height: 1.375rem;
   }
 }
 
 @media screen and (max-width:490px) {
   .place__button {
-    width        : 120%;
-    padding:16px 22px 15px 21px;
-    font-size    : 14px;
-    line-height  : 17px;
-    margin: 8px 16px 16px 16px;
+    width        : 30.625rem;
+    padding:1rem 1.375rem 0.9375rem 21px;
+    font-size    : 0.875rem;
+    line-height  : 1.0625rem;
+    margin: 8px 1rem 1rem 1rem;
 
   }
 }

@@ -1,11 +1,11 @@
 .place__description-parrafo {
-  width        : 484px;
+  width        : 90%;
   margin       : 0;
   font-style   : normal;
   font-weight  : 400;
-  font-size    : 18px;
+  font-size    : 1.125rem;
   line-height  : 1.63;
-  margin-bottom: 25px;
+  margin-bottom: 1.5625rem;
 }
 
 @media screen and (max-width:768px) {
@@ -16,7 +16,7 @@
 
 @media screen and (max-width:490px) {
   .place__description-parrafo {
-    width: 100%;
+    width: 75%;
     margin:0 auto;
     margin-bottom    : 1rem;
     margin-left: 1rem;
@@ -24,5 +24,6 @@
     font-weight: 400;
     font-size  : 1rem;
     line-height: 1.63;
+    border: 2px solid #ccc;
   }
 }
