@@ -1,5 +1,9 @@
 .principal__image {
-  width         : 100%;
   padding-bottom: 5.6rem;
-  text-align    : center;
+}
+
+@media screen and (max-width: 490px) {
+  .principal__image {
+    padding-bottom: 2.75rem;
+  }
 }

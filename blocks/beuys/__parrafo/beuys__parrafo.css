@@ -1,25 +1,28 @@
 .beuys__parrafo {
-  width      : 70%;
-  font-size  : 1rem;
+  width: 70%;
+  font-size: 1rem;
   font-weight: 400;
-  font-style : normal;
+  font-style: normal;
   line-height: 1.63;
 }
 
 @media screen and (max-width: 768px) {
   .beuys__parrafo {
-    width      : 100%;
-    font-style : normal;
+    width: 100%;
+    font-style: normal;
     font-weight: 400;
-    font-size  : 1rem;
+    font-size: 1rem;
     line-height: 1.63;
   }
 }
 
-@media screen and (max-width: 432px) {
+@media screen and (max-width: 490px) {
   .beuys__parrafo {
-    width      : 92%;
+    width: 95%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
     line-height: 1.63;
-    margin     : 0;
+    margin:0;
   }
 }

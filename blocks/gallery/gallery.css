@@ -5,15 +5,15 @@
   margin               : auto;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows   : repeat(2, 1fr);
-  grid-gap             : 1rem 1rem;
+  grid-gap             : 0.75rem 1rem;
   padding-bottom       : 5.75rem;
 
 }
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 1024px) {
   .gallery {
     width                : 96%;
-    padding-top          : 4rem;
+    padding-top          : 2.375rem;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows   : repeat(2, 1fr);
   }
@@ -21,6 +21,7 @@
 
 @media screen and (max-width: 490px) {
   .gallery {
+    padding-bottom       : 3.875rem;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows   : repeat(2, 1fr);
   }

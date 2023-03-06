@@ -7,7 +7,7 @@
   font-size: 72px;
   line-height: 1.06;
   grid-area: title;
-  margin-top:2.18rem;
+  margin-top: 2.18rem;
 }
 
 @media screen and (max-width:768px) {
@@ -21,7 +21,10 @@
 
 @media screen and (max-width:490px) {
   .place__title {
-    width: 89%;
-    padding: 0 16px;
+    font-weight: 900;
+    font-size: 2rem;
+    line-height: 1.09;
+    margin: 0;
+    margin: 0 1rem;
   }
 }

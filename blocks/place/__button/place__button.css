@@ -1,5 +1,6 @@
 .place__button {
-  max-width       : fit-content;
+ max-width: fit-content;
+ text-align: center;
   text-decoration : none;
   color           : #fff;
   background-color: #0278FE;
@@ -20,7 +21,6 @@
 
 @media screen and (max-width:768px) {
   .place__button {
-    display    : block;
     width      : 100%;
     font-weight: 600;
     font-size  : 18px;
@@ -30,8 +30,7 @@
 
 @media screen and (max-width:490px) {
   .place__button {
-    display      : block;
-    width        : 89%;
+    width        : 120%;
     padding:16px 22px 15px 21px;
     font-size    : 14px;
     line-height  : 17px;
