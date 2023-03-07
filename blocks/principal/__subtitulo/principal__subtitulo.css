@@ -9,26 +9,17 @@
   width         : 70%;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1225px) {
   .principal__subtitulo {
-    width      : 95%;
-    font-style : normal;
-    font-weight: 400;
-    font-size  : 30px;
-    line-height: 1.2;
-    text-align : center;
+    padding-top: 5rem;
   }
 }
 
-@media screen and (max-width:432px) {
+@media screen and (max-width:480px) {
   .principal__subtitulo {
     width      : 95%;
     margin-top:3.75rem;
-    margin-bottom:2.5rem;
-    font-style : normal;
-    font-weight: 400;
     font-size  : 1rem;
     line-height: 1.25;
-    text-align : center;
   }
 }

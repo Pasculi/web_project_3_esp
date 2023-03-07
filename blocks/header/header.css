@@ -1,4 +1,12 @@
 .header {
-  text-align: center;
+  width      : 270px;
+  height     : 70px;
+  padding-top: 34px;
   margin: auto;
+}
+
+@media screen and (max-width: 490px) {
+  .header {
+    width: 200px;
+  }
 }

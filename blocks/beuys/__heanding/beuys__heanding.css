@@ -1,16 +1,15 @@
 .beuys__heanding {
+  font-style : normal;
   font-weight: 900;
-  font-size: 3.375rem;
-  line-height: 1.1;
+  font-size  : 3.375rem;
+  line-height: 1.09;
+  margin     : 0 auto;
 }
 
 @media screen and (max-width: 490px) {
   .beuys__heanding {
-    font-style: normal;
-    font-weight: 900;
-    font-size: 32px;
-    line-height: 1.09;
-    margin:0;
-    margin-bottom:0.563rem;
+    font-size    : 2rem;
+    line-height  : 1.07;
+    margin-bottom: 0.563rem;
   }
 }

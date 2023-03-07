@@ -1,17 +1,15 @@
 .beuys__quote {
-  display    : flex;
   width      : 70%;
+  font-style: normal;
   font-weight: 400;
   font-size  : 1.5rem;
   margin-top : 2.5rem;
-  position:relative;
+
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1225px) {
   .beuys__quote {
     width      : 100%;
-    font-style : normal;
-    font-weight: 400;
     font-size  : 1.6rem;
     line-height: 1.42;
     margin     : auto;
@@ -20,12 +18,9 @@
 }
 @media screen and (max-width: 490px) {
   .beuys__quote {
-    width      : 100%;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 30px;
-    /* or 125% */
+    font-size: 1.5rem;
+    line-height: 1.25;
+
   }
 
 }
