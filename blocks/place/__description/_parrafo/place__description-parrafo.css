@@ -16,14 +16,13 @@
 
 @media screen and (max-width:490px) {
   .place__description-parrafo {
-    width: 75%;
-    margin:0 auto;
+    width: 70%;
     margin-bottom    : 1rem;
     margin-left: 1rem;
     font-style: normal;
     font-weight: 400;
     font-size  : 1rem;
     line-height: 1.63;
-    border: 2px solid #ccc;
+    /* border: 2px solid #ccc; */
   }
 }

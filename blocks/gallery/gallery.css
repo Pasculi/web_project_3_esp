@@ -10,10 +10,11 @@
 
 }
 
-@media screen and (max-width: 1276px) {
+@media screen and (max-width: 1225px) {
   .gallery {
+    width: 95%;
     padding-top          : 2.375rem;
-    grid-template-columns: repeat(2, 17.6rem);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows   : repeat(2, 1fr);
     justify-content: center;
 
