@@ -1,29 +1,29 @@
 .place {
-  width: 80%;
-  margin-left: 1rem;
-  display: grid;
-  gap: 1rem 1rem;
+  width                : 80%;
+  margin-left          : 1rem;
+  display              : grid;
+  gap                  : 1rem 1rem;
   grid-template-columns: 1fr 1fr;
-  grid-template-areas:
-  "title artist-title"
-  "image artist-description"
-  "button artist-description"
-  "button .";
+  grid-template-areas  :
+    "title artist-title"
+    "image artist-description"
+    "button artist-description"
+    "button .";
   align-self: center;
 }
 
 @media screen and (max-width:1225px) and (min-width:1024px) {
   .place {
-    width: 95%;
+    width   : 95%;
     grid-gap: .5rem .5rem;
   }
 }
 
 @media screen and (max-width:520px) {
   .place {
-    display: grid;
+    display              : grid;
     grid-template-columns: 1fr;
-    grid-template-areas:
+    grid-template-areas  :
       "title"
       "artist-title"
       "image"
@@ -34,8 +34,8 @@
   }
 }
 
-@media screen and (min-width: 1024px){
-  .place{
+@media screen and (min-width: 1024px) {
+  .place {
     margin: auto;
   }
 }
