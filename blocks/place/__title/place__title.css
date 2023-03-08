@@ -1,6 +1,6 @@
 .place__title {
   margin: 0;
-  width: 460px;
+  width: 455px;
   height: 152px;
   font-style: normal;
   font-weight: 900;
@@ -10,12 +10,12 @@
   margin-top: 2.18rem;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1225px) {
   .place__title {
     width: 95%;
-    font-size: 42px;
     line-height: 1.1;
     height: fit-content;
+
   }
 }
 

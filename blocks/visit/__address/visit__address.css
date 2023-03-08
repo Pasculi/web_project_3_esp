@@ -2,21 +2,16 @@
   box-sizing      : border-box;
   width           : 656px;
   display         : flex;
-  flex-direction  : column;
-  justify-content : center;
-  align-items     : center;
-  position        : absolute;
+  flex-direction: column;
+  align-items: center;
+  margin:0 auto;
   background-color: transparent;
-  top             : 243px;
-  left            : 312px;
   opacity         : 1;
   z-index         : 10;
 }
 
 @media screen and (max-width: 768px) {
   .visit__address {
-    top        : 246px;
-    left       : 56px;
     font-weight: 600;
     font-size  : 18px;
     line-height: 22px;
@@ -25,9 +20,6 @@
 
 @media screen and (max-width: 490px) {
   .visit__address {
-    width      : 69%;
-    top        : 46px;
-    left       : 15%;
     font-weight: 600;
     font-size  : 18px;
     line-height: 22px;
