@@ -1,32 +1,17 @@
 .place__image {
-  width     : 460px;
-  height    : 460px;
-  object-fit: cover;
-  grid-area : image;
-  margin    : 48px 0;
+  width     : 100%;
+  grid-area: image;
+  margin-top:2.5rem;
 }
 
-/* @media screen and (min-width:769px) {
+@media screen and (max-width:1225px){
   .place__image {
-    width : 460px;
-height : 460px;
-  }
-} */
-
-@media screen and (max-width:769px){
-  .place__image {
-    width        : 340px;
-    height       : 340px;
-    margin-top   : 46px;
-    padding-right: 1rem;
+    width: 340px;
   }
 }
 
-@media screen and (max-width:520px) {
-  .place__image {
-    width  : 100vw;
-    height : 390px;
-    margin : 0;
-    padding: 0;
+@media screen and (max-width:490px){
+  .place__image{
+    width: 100%;
   }
 }

@@ -1,28 +1,23 @@
 .place__description-parrafo {
-  width        : 90%;
+  max-width: 484px;
   margin       : 0;
-  font-style   : normal;
   font-weight  : 400;
   font-size    : 1.125rem;
   line-height  : 1.63;
-  margin-bottom: 1.5625rem;
+  padding-bottom: 1.5625rem;
+
 }
 
 @media screen and (max-width:768px) {
   .place__description-parrafo {
-    width: 75%;
-  }
+    width: 353px;
+    }
 }
 
 @media screen and (max-width:490px) {
   .place__description-parrafo {
-    width: 70%;
-    margin-bottom    : 1rem;
-    margin-left: 1rem;
-    font-style: normal;
-    font-weight: 400;
     font-size  : 1rem;
-    line-height: 1.63;
-    /* border: 2px solid #ccc; */
+    padding: 0 .625rem;
+
   }
 }

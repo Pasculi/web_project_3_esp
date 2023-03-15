@@ -1,27 +1,28 @@
 .place {
   width                : 80%;
-  margin-left          : 1rem;
+  margin               : 0 auto;
   display              : grid;
-  gap                  : 1rem 1rem;
+  gap                  : 3rem 2.5rem;
   grid-template-columns: 1fr 1fr;
   grid-template-areas  :
     "title artist-title"
     "image artist-description"
     "button artist-description"
     "button .";
-  align-self: center;
 }
 
-@media screen and (max-width:1225px) and (min-width:1024px) {
+@media screen and (max-width:1225px) {
   .place {
-    width   : 95%;
+    width   : 90%;
+    grid-template-columns: .7fr 1fr;
     grid-gap: .5rem .5rem;
+
   }
 }
 
-@media screen and (max-width:520px) {
+@media screen and (max-width:490px) {
   .place {
-    display              : grid;
+    width                : 100%;
     grid-template-columns: 1fr;
     grid-template-areas  :
       "title"
@@ -31,11 +32,5 @@
       "button";
     gap: 10px;
 
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .place {
-    margin: auto;
   }
 }

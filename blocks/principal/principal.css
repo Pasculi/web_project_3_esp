@@ -4,7 +4,7 @@
   text-align    : center;
 }
 
-@media screen and (max-width:780px) {
+@media screen and (max-width:1224px) {
   .principal {
     width: 100%;
   }

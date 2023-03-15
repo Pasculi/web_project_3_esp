@@ -1,21 +1,6 @@
 .place__description {
-  margin    : 0;
   grid-area : artist-description;
   margin-top: 48px;
-}
-
-@media screen and (max-width:768px) {
-  .place__description {
-    font-style : normal;
-    font-weight: 400;
-    font-size  : 16px;
-    line-height: 1.63;
-  }
-}
-
-@media screen and (max-width:490px) {
-  .place__description{
-    margin:0;
-    max-width: 90%;
-  }
+  display:flex;
+  flex-direction: column;
 }
