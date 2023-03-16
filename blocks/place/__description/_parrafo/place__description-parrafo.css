@@ -8,9 +8,9 @@
 
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1225px) {
   .place__description-parrafo {
-    width: 72%;
+    width: 75%;
     }
 }
 

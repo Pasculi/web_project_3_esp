@@ -20,7 +20,7 @@
   background-color: #0063D2;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1225px) {
   .place__button {
     width      : 95%;
     font-weight: 600;
