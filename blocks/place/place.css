@@ -22,7 +22,7 @@
 
 @media screen and (max-width:490px) {
   .place {
-    width                : 100%;
+    margin:0;
     grid-template-columns: 1fr;
     grid-template-areas  :
       "title"

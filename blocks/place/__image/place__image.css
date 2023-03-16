@@ -6,12 +6,19 @@
 
 @media screen and (max-width:1225px){
   .place__image {
-    width: 340px;
+    width: 90%;
   }
 }
 
 @media screen and (max-width:490px){
   .place__image{
-    width: 320px;
+    width: 95%;
+  }
+}
+
+@media screen and (max-width:380px) {
+  .place__image {
+    width: 70%;
+    
   }
 }

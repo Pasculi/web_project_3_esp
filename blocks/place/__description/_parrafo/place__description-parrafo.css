@@ -1,9 +1,9 @@
 .place__description-parrafo {
-  max-width: 484px;
-  margin       : 0;
-  font-weight  : 400;
-  font-size    : 1.125rem;
-  line-height  : 1.63;
+  max-width     : 484px;
+  margin        : 0;
+  font-weight   : 400;
+  font-size     : 1.125rem;
+  line-height   : 1.63;
   padding-bottom: 1.5625rem;
 
 }
@@ -11,14 +11,26 @@
 @media screen and (max-width:1225px) {
   .place__description-parrafo {
     width: 75%;
-    }
+  }
 }
 
 @media screen and (max-width:490px) {
   .place__description-parrafo {
-    width: 50%;
-    font-size  : 1rem;
-    padding: 0 .625rem;
+    width       : 70%;
+    font-size   : 1.3rem;
+    padding     : 0 .625rem;
+    margin      : 0;
+    padding-left: 1rem;
+
+  }
+}
+
+@media screen and (max-width:390px) {
+  .place__description-parrafo {
+    width : 60%;
+    margin      : 0;
+    padding:0;
+    margin-left: 1rem;
 
   }
 }
